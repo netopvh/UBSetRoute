@@ -1,0 +1,1328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		004691F1E9B048DABECDC0C5B358ABF8 /* SetRouteViewImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB650679A45A7A6CA231B07FF625AE5C /* SetRouteViewImages.swift */; };
+		009C8F1336AF624FFA86C976A20333C9 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB36DF318C58E90965AD454FDA553BA5 /* arrow-left.png */; };
+		044DA6EF1E4DF8B6AA06D98CB9813353 /* PlacesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B14F7FD5C148EA1330C6E832033C7F /* PlacesTableView.swift */; };
+		06821A06066591E2BE125D64DDDC9870 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E131D5528951AD842444377F2DB7F03D /* CustomButton.swift */; };
+		08D2994D6742AA5C6EE1FCB1ECC488CA /* EditStopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E221259263C5CAA2746224520E234 /* EditStopViewController.swift */; };
+		0F95437410D14043310A3E713645247A /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301F1A4035C880B672DD726A34E203D /* NewView.swift */; };
+		1BC44A6D560CCC6ED0CAADCC89085609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2972B30D679C342067F991C488BED13E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B06AB5D06B000F1F236D102CE7440A /* MapView.swift */; };
+		2C825B4D820884C02162AE79A8FC5EEC /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = 084392B6592780030BF670DB5B6C4080 /* drag.png */; };
+		2D9F88AD4C470B02ACFD6985A9CFB1E8 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C4184F212F31F86CAA524299CECC0B /* pin.png */; };
+		338521E9748F8CDCEBE7D5585009D395 /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BDFA77CAC94563808691A8861CB330 /* dots.png */; };
+		37E0F2B007949CB4D1636F40CA1B4A73 /* UBSetRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EECD966FCF13BBB52923B8F93AD0C02 /* UBSetRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAC7C86356B80F201F97FA27ED308D6 /* icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = D9FD88BF8AD9403F33ADC416C51C1169 /* icon-map.png */; };
+		417AC01FE234622917DB9EE5B8BE5441 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDAC79F1F35626E31DA1A6E14F239C /* PlaceViewModel.swift */; };
+		41E6799590BF1BC7DD4E80CC46125B79 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9E0C45AEA7B0575ACD389013E12B67 /* Points.swift */; };
+		42C2B394BEE86BFBBCCA96B7D1BDDCF0 /* pin-userlocation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5CB28F78F4B613AA654F15E6DEDA8D /* pin-userlocation@3x.png */; };
+		47F9E641F28E151492EEEACD4ACC5AAB /* swap.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C029DF117675B16AC1D3646BE67CF1 /* swap.png */; };
+		4D18C9DF8B4B2CFF8380DB399CA62B58 /* StopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113642C01054237C5EB9F853FA9BDD49 /* StopCell.swift */; };
+		5282C3727A3DA51347704AA9E4612CCA /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6A8D6921E4470B2A8A881887D389E1 /* add.png */; };
+		53A407AA0B8E0C9A21A9F783400A13E8 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 207E4A27A15DCA28093FE377585D5CEB /* delete.png */; };
+		55AE2F1FB6F99FD00094CC55462019BA /* RMGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299B3642465C7ECDB667C875894D391 /* RMGradientView.swift */; };
+		5B5FF9441FF0B5CDC805300087B2908C /* UBSetRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC548C2E3406F39D78EA0586A52EF00 /* UBSetRoute-dummy.m */; };
+		653B103716DE061EC0109175BD8353CB /* Pods-UBSetRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1A39AA8FFB9DC43E21926F9FD7B916 /* Pods-UBSetRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D1650E8C74DBDDAD944C26E9E7D25C /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1092CB9FDD6E165E7CC0BA2E410BAF /* target.png */; };
+		692EBCA75C4744699FEE9FE074772E5A /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F84B569B5B5DE7872ED5FF34095959 /* RouteView.swift */; };
+		6CA99CE668A5ABBE44D4B9D988A6E7E8 /* circle-visited.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A07BA49A4D465D91B6941DF404431E /* circle-visited.png */; };
+		7716A4BE51C7233D36513732746E226C /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = EE961C812859236EB5DCCDE828B78A5B /* circle.png */; };
+		7D62DC301C22963D8C43706E978DAE54 /* MultiplesStopsTableVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B2B15981DC43B031F39F406A3C5A90 /* MultiplesStopsTableVIew.swift */; };
+		7F3AA4A0BB6BBF5D788021F97DF7B42E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F030EE237FA3ED6AE16177F7B96DA144 /* Extensions.swift */; };
+		8124CD928B15E9B1E90CCAD8A70A90FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		86161BE6A5D48D3D0C28912D996A647E /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90216ACBBAAD3C093A30334DADF8E3 /* RouteViewModel.swift */; };
+		8A77175C3C568CC21602670B626F1BB8 /* StopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F582C094C408EED899211235F322D3 /* StopView.swift */; };
+		8ACF1DC2480FE4109DF5C9F2FCB0CA2F /* Pods-UBSetRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F707CA4E400E53B771FB5A3ACF11BD /* Pods-UBSetRoute_Example-dummy.m */; };
+		A2359FA1385789AC9EF48C8F1F488C8E /* SetRouteViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6901C20D34C23C5DF68AF6014C50E6C8 /* SetRouteViewSettings.swift */; };
+		B5282BACAAE78741B34F5FA350696837 /* EditStopTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A29A329B93F2C9C2A562B08BDDC715 /* EditStopTableView.swift */; };
+		BC337212113D280C966B3BAF6E12C7FE /* EditStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D478FB693E71B2053C45EB90DCBD9A1 /* EditStopView.swift */; };
+		BDDE9D79ECD839AF990B360EE43BB097 /* MultiplesStopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6EE66B7415EC2CFF5347CFD4F0133 /* MultiplesStopsViewController.swift */; };
+		C012F81C2A58E7F7EA514F6419799C12 /* ButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C842AE4C08095878F0C10875E8AD07 /* ButtonsTableViewCell.swift */; };
+		C7048E5A18655FA36C7F29AF3722345B /* information-stops.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8DF60564E167D443DDF842B752627F /* information-stops.png */; };
+		C97E87450A816E0F6FF63B350109F145 /* StopsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916D20F02F5EA4C4C35692007D0E69D7 /* StopsInformationView.swift */; };
+		CD974AB7778A4AB63E81D7F2925181DE /* SetRouteViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D4F402F0D2A01DE7AA31F71C517672 /* SetRouteViewColors.swift */; };
+		D2DD2504F98DDB64056EAC93C8810846 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03168825D08A34D95A438E1C98AC3A73 /* PlacesCell.swift */; };
+		DA344BAE4E0F10B3C2017B3B202877BF /* LocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCCEAC51F438CE5C6FC8D85D496A0B4 /* LocationButton.swift */; };
+		DAF74EF741E7D14E00A2B4D7334B9F16 /* Pods-UBSetRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8934EC8088C4392B7FC17E5DECA2255B /* Pods-UBSetRoute_Tests-dummy.m */; };
+		DD0F988221480E6C3572E702C576383E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06FF8C5BD39A85E5C2940A96F37F2B /* HeaderView.swift */; };
+		DDD9D8F787426F9CCD5976F21154F263 /* NewStopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D2899C6753CD57B5D046E34CEAA7E /* NewStopCell.swift */; };
+		E05DABBB922CDB443D4767A85F0BEC5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E2F6472AFB13E9CEB8029AB087911A99 /* Pods-UBSetRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C07D2175A5B33E27A248F5072FC358 /* Pods-UBSetRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B75547596982DF9DDF3E3B5D22A906 /* DestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121BE2EC7AEB8090D0A96DCA14D3FDA /* DestinyView.swift */; };
+		E5B6EA0DF6A1974B4A303DDA13969561 /* RouteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB64A8AC44A5EC4BEE5562A5849EA2C2 /* RouteTextField.swift */; };
+		E7F7D0CEA10F45C55F10251A8CDA3E3B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09328645AE676BB38E21BFB94132CB71 /* Strings.swift */; };
+		EB91A2D609C0A9A62ABA55C04F0B630E /* SetRouteViewFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E62850823FDA476F6FD94CA462BF83 /* SetRouteViewFonts.swift */; };
+		EEC0B4F76A763125B49E3F3408E3C0EC /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 497D1C8F5D17FB6EF2EFC587DE0D6ED3 /* map-pin.png */; };
+		F0B3EB74036C81D2804B8E025137DDC0 /* MapView+LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C184453A317E5D4FDC0137B019F93FA5 /* MapView+LocationManager.swift */; };
+		FEA2EEC2C74791EB6A5448467DA36D6A /* EditingRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CB12D09942FF3A20943851E567D96 /* EditingRouteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA4AE3D403C29404306A6596D9332E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A114E5AE2DEECABD77DBA0D23444C0A;
+			remoteInfo = "Pods-UBSetRoute_Example";
+		};
+		40BFD69B30BF05DBE28EBC851BFC56D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F798C8417EC1ADDC7B7B586D66E0497;
+			remoteInfo = UBSetRoute;
+		};
+		496C32E58737EB11E062C3CA0B08CBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		6AAE1C90142320A669517B5F431DBEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F42BCFC85DB41FE3B87384C02BD674;
+			remoteInfo = "UBSetRoute-UBSetRoute";
+		};
+		86885217D68F2B59B743E8B8CD8BB9A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B06AB5D06B000F1F236D102CE7440A /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		01B2B15981DC43B031F39F406A3C5A90 /* MultiplesStopsTableVIew.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultiplesStopsTableVIew.swift; sourceTree = "<group>"; };
+		01F707CA4E400E53B771FB5A3ACF11BD /* Pods-UBSetRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBSetRoute_Example-dummy.m"; sourceTree = "<group>"; };
+		0274AC44A6689817FB6D3561F24E519E /* Pods-UBSetRoute_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBSetRoute_Example-Info.plist"; sourceTree = "<group>"; };
+		03168825D08A34D95A438E1C98AC3A73 /* PlacesCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBSetRoute.xcconfig; sourceTree = "<group>"; };
+		084392B6592780030BF670DB5B6C4080 /* drag.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = drag.png; path = ../../Assets/drag.png; sourceTree = "<group>"; };
+		09328645AE676BB38E21BFB94132CB71 /* Strings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		113642C01054237C5EB9F853FA9BDD49 /* StopCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopCell.swift; sourceTree = "<group>"; };
+		12A29A329B93F2C9C2A562B08BDDC715 /* EditStopTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EditStopTableView.swift; sourceTree = "<group>"; };
+		1EECD966FCF13BBB52923B8F93AD0C02 /* UBSetRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBSetRoute-umbrella.h"; sourceTree = "<group>"; };
+		207E4A27A15DCA28093FE377585D5CEB /* delete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = delete.png; path = ../../Assets/delete.png; sourceTree = "<group>"; };
+		2230621F84546A826CC4FD70B7F5F088 /* Pods-UBSetRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBSetRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2301F1A4035C880B672DD726A34E203D /* NewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		24A2463F3221B768082F78A10DE8C399 /* Pods-UBSetRoute_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBSetRoute_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37C4184F212F31F86CAA524299CECC0B /* pin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pin.png; path = ../../Assets/pin.png; sourceTree = "<group>"; };
+		3A6A8D6921E4470B2A8A881887D389E1 /* add.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = add.png; path = ../../Assets/add.png; sourceTree = "<group>"; };
+		406C08F347766097734B1213E3E67246 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		430E7A7CB0CC4A76DE10238A75F12BE2 /* Pods_UBSetRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBSetRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BDFA77CAC94563808691A8861CB330 /* dots.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dots.png; path = ../../Assets/dots.png; sourceTree = "<group>"; };
+		497D1C8F5D17FB6EF2EFC587DE0D6ED3 /* map-pin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "map-pin.png"; path = "../../Assets/map-pin.png"; sourceTree = "<group>"; };
+		4D478FB693E71B2053C45EB90DCBD9A1 /* EditStopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EditStopView.swift; sourceTree = "<group>"; };
+		5121BE2EC7AEB8090D0A96DCA14D3FDA /* DestinyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DestinyView.swift; sourceTree = "<group>"; };
+		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		5299B3642465C7ECDB667C875894D391 /* RMGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RMGradientView.swift; sourceTree = "<group>"; };
+		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		55C842AE4C08095878F0C10875E8AD07 /* ButtonsTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		5916639FC88CCC2D942F6C4628FA3F76 /* Pods-UBSetRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBSetRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A8DF60564E167D443DDF842B752627F /* information-stops.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "information-stops.png"; path = "../../Assets/information-stops.png"; sourceTree = "<group>"; };
+		5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		609DF6FFAC134AF8B8C630118ACB66FF /* UBSetRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UBSetRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D4F402F0D2A01DE7AA31F71C517672 /* SetRouteViewColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetRouteViewColors.swift; sourceTree = "<group>"; };
+		6901C20D34C23C5DF68AF6014C50E6C8 /* SetRouteViewSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetRouteViewSettings.swift; sourceTree = "<group>"; };
+		6E259E67BDA7B67360589D22C3B146D1 /* Pods-UBSetRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBSetRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70B14F7FD5C148EA1330C6E832033C7F /* PlacesTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlacesTableView.swift; sourceTree = "<group>"; };
+		70F582C094C408EED899211235F322D3 /* StopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopView.swift; sourceTree = "<group>"; };
+		729988F74CF652696B762131E66EF468 /* UBSetRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UBSetRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73A07BA49A4D465D91B6941DF404431E /* circle-visited.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle-visited.png"; path = "../../Assets/circle-visited.png"; sourceTree = "<group>"; };
+		789D2899C6753CD57B5D046E34CEAA7E /* NewStopCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewStopCell.swift; sourceTree = "<group>"; };
+		8934EC8088C4392B7FC17E5DECA2255B /* Pods-UBSetRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBSetRoute_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		916D20F02F5EA4C4C35692007D0E69D7 /* StopsInformationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopsInformationView.swift; sourceTree = "<group>"; };
+		968063B6D2E06F0516499955AF9AE923 /* Pods-UBSetRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBSetRoute_Example.modulemap"; sourceTree = "<group>"; };
+		96FCDF764BCD7F86B03B847E7E002E92 /* UBSetRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBSetRoute.modulemap; sourceTree = "<group>"; };
+		9B1A39AA8FFB9DC43E21926F9FD7B916 /* Pods-UBSetRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBSetRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9CC548C2E3406F39D78EA0586A52EF00 /* UBSetRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBSetRoute-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5F84B569B5B5DE7872ED5FF34095959 /* RouteView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		A8BDAC79F1F35626E31DA1A6E14F239C /* PlaceViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
+		A9E62850823FDA476F6FD94CA462BF83 /* SetRouteViewFonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetRouteViewFonts.swift; sourceTree = "<group>"; };
+		AC58E7C391AF2CACF6C1393087DF7C35 /* Pods-UBSetRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBSetRoute_Tests.modulemap"; sourceTree = "<group>"; };
+		ADCCEAC51F438CE5C6FC8D85D496A0B4 /* LocationButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationButton.swift; sourceTree = "<group>"; };
+		AF90216ACBBAAD3C093A30334DADF8E3 /* RouteViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		B5D8875A666697E38FF866E90019AB33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BB36DF318C58E90965AD454FDA553BA5 /* arrow-left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow-left.png"; path = "../../Assets/arrow-left.png"; sourceTree = "<group>"; };
+		BEF1D61B62A456C163E51E169218591E /* Pods-UBSetRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBSetRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF3CB12D09942FF3A20943851E567D96 /* EditingRouteView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EditingRouteView.swift; sourceTree = "<group>"; };
+		C184453A317E5D4FDC0137B019F93FA5 /* MapView+LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MapView+LocationManager.swift"; sourceTree = "<group>"; };
+		C201331D3240B90AC0980C139BDB0236 /* Pods-UBSetRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBSetRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C45BE30A6421EC3C811745194D2110E0 /* Pods-UBSetRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBSetRoute_Example-resources.sh"; sourceTree = "<group>"; };
+		C8C029DF117675B16AC1D3646BE67CF1 /* swap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = swap.png; path = ../../Assets/swap.png; sourceTree = "<group>"; };
+		C913B049526758539CCA4DA06D4D2944 /* Pods-UBSetRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBSetRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB64A8AC44A5EC4BEE5562A5849EA2C2 /* RouteTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteTextField.swift; sourceTree = "<group>"; };
+		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		CF1092CB9FDD6E165E7CC0BA2E410BAF /* target.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = target.png; path = ../../Assets/target.png; sourceTree = "<group>"; };
+		CFF8E56991577AC75CF5561482BA15DF /* ResourceBundle-UBSetRoute-UBSetRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UBSetRoute-UBSetRoute-Info.plist"; sourceTree = "<group>"; };
+		D12EEABEB651BDA68F39657496D1E41D /* Pods_UBSetRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBSetRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FD88BF8AD9403F33ADC416C51C1169 /* icon-map.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-map.png"; path = "../../Assets/icon-map.png"; sourceTree = "<group>"; };
+		DBD46D13F222792B6C861121DC9620F0 /* UBSetRoute-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBSetRoute-Info.plist"; sourceTree = "<group>"; };
+		DE2ECCE5835F37AD6CA949F7CFF64534 /* UBSetRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBSetRoute-prefix.pch"; sourceTree = "<group>"; };
+		DF06FF8C5BD39A85E5C2940A96F37F2B /* HeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DF9E0C45AEA7B0575ACD389013E12B67 /* Points.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		E131D5528951AD842444377F2DB7F03D /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E8C07D2175A5B33E27A248F5072FC358 /* Pods-UBSetRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBSetRoute_Example-umbrella.h"; sourceTree = "<group>"; };
+		E963919DB615626B027AA3F67FD9E1EB /* UBSetRoute.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBSetRoute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6EE66B7415EC2CFF5347CFD4F0133 /* MultiplesStopsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultiplesStopsViewController.swift; sourceTree = "<group>"; };
+		EB5CB28F78F4B613AA654F15E6DEDA8D /* pin-userlocation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pin-userlocation@3x.png"; path = "../../Assets/pin-userlocation@3x.png"; sourceTree = "<group>"; };
+		ED5E221259263C5CAA2746224520E234 /* EditStopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EditStopViewController.swift; sourceTree = "<group>"; };
+		EE961C812859236EB5DCCDE828B78A5B /* circle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = circle.png; path = ../../Assets/circle.png; sourceTree = "<group>"; };
+		F030EE237FA3ED6AE16177F7B96DA144 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3F1C6B83F17754C2A6E0E3C2B7D2384 /* Pods-UBSetRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBSetRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4437C8F02043897231DBA9847B2B147 /* Pods-UBSetRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBSetRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FB650679A45A7A6CA231B07FF625AE5C /* SetRouteViewImages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetRouteViewImages.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178BA9D292C15645D173387C409996C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124CD928B15E9B1E90CCAD8A70A90FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A513BEFD3F5C16A3BE4A13154CC306F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC44A6D560CCC6ED0CAADCC89085609 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26212EDEFDB487F6A46E51E03DE4D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB78A7DB82758663244A14EF3C0E182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05DABBB922CDB443D4767A85F0BEC5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F26D0AD6E810CB61BAC46DC1ABD45E /* RouteView */ = {
+			isa = PBXGroup;
+			children = (
+				CB64A8AC44A5EC4BEE5562A5849EA2C2 /* RouteTextField.swift */,
+				A5F84B569B5B5DE7872ED5FF34095959 /* RouteView.swift */,
+				916D20F02F5EA4C4C35692007D0E69D7 /* StopsInformationView.swift */,
+			);
+			path = RouteView;
+			sourceTree = "<group>";
+		};
+		2C4EB33A076BB7654667F327222F2A96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		32BBE7068A877FB7EC931EEDF4AEC570 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7735D7D24CD274DDCFBBDF15FC2F171 /* DestinyView */,
+				7315EF0E69D9491D7AAA4CC7634D3D94 /* MapView */,
+				04F26D0AD6E810CB61BAC46DC1ABD45E /* RouteView */,
+				DFED3F336CF103AD11FE0843A3204094 /* TableView */,
+			);
+			name = View;
+			path = UBSetRoute/Classes/View;
+			sourceTree = "<group>";
+		};
+		49D2F033DB537FD9D8177A83FBBABA58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDAC79F1F35626E31DA1A6E14F239C /* PlaceViewModel.swift */,
+				AF90216ACBBAAD3C093A30334DADF8E3 /* RouteViewModel.swift */,
+			);
+			name = ViewModel;
+			path = UBSetRoute/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		565BFF87D585B5373330462BB235EDB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8949E478D93AAB29CE6034647AC95D0C /* Pods-UBSetRoute_Example */,
+				B5AE4F269F265A1459E3684F17837330 /* Pods-UBSetRoute_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		633FCCD7A109F05C0368000854304936 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8E56991577AC75CF5561482BA15DF /* ResourceBundle-UBSetRoute-UBSetRoute-Info.plist */,
+				96FCDF764BCD7F86B03B847E7E002E92 /* UBSetRoute.modulemap */,
+				0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */,
+				9CC548C2E3406F39D78EA0586A52EF00 /* UBSetRoute-dummy.m */,
+				DBD46D13F222792B6C861121DC9620F0 /* UBSetRoute-Info.plist */,
+				DE2ECCE5835F37AD6CA949F7CFF64534 /* UBSetRoute-prefix.pch */,
+				1EECD966FCF13BBB52923B8F93AD0C02 /* UBSetRoute-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UBSetRoute";
+			sourceTree = "<group>";
+		};
+		635C391EBEDEECEBED7C587C09F80C29 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */,
+				CB4FFE30125DB944A69FABB13465CBF9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		6DC984D737DB841E41A9D175E8069AED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6E5230FD9F9A86D0F232882FAC550F4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A6A8D6921E4470B2A8A881887D389E1 /* add.png */,
+				BB36DF318C58E90965AD454FDA553BA5 /* arrow-left.png */,
+				EE961C812859236EB5DCCDE828B78A5B /* circle.png */,
+				73A07BA49A4D465D91B6941DF404431E /* circle-visited.png */,
+				207E4A27A15DCA28093FE377585D5CEB /* delete.png */,
+				44BDFA77CAC94563808691A8861CB330 /* dots.png */,
+				084392B6592780030BF670DB5B6C4080 /* drag.png */,
+				F030EE237FA3ED6AE16177F7B96DA144 /* Extensions.swift */,
+				D9FD88BF8AD9403F33ADC416C51C1169 /* icon-map.png */,
+				5A8DF60564E167D443DDF842B752627F /* information-stops.png */,
+				497D1C8F5D17FB6EF2EFC587DE0D6ED3 /* map-pin.png */,
+				37C4184F212F31F86CAA524299CECC0B /* pin.png */,
+				EB5CB28F78F4B613AA654F15E6DEDA8D /* pin-userlocation@3x.png */,
+				5299B3642465C7ECDB667C875894D391 /* RMGradientView.swift */,
+				09328645AE676BB38E21BFB94132CB71 /* Strings.swift */,
+				C8C029DF117675B16AC1D3646BE67CF1 /* swap.png */,
+				CF1092CB9FDD6E165E7CC0BA2E410BAF /* target.png */,
+			);
+			name = Resources;
+			path = UBSetRoute/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		7315EF0E69D9491D7AAA4CC7634D3D94 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				E131D5528951AD842444377F2DB7F03D /* CustomButton.swift */,
+				ADCCEAC51F438CE5C6FC8D85D496A0B4 /* LocationButton.swift */,
+				01B06AB5D06B000F1F236D102CE7440A /* MapView.swift */,
+				C184453A317E5D4FDC0137B019F93FA5 /* MapView+LocationManager.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */,
+				8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8084EBB1CFB57E0604254C1881C084F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				430E7A7CB0CC4A76DE10238A75F12BE2 /* Pods_UBSetRoute_Example.framework */,
+				D12EEABEB651BDA68F39657496D1E41D /* Pods_UBSetRoute_Tests.framework */,
+				E963919DB615626B027AA3F67FD9E1EB /* UBSetRoute.bundle */,
+				609DF6FFAC134AF8B8C630118ACB66FF /* UBSetRoute.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8949E478D93AAB29CE6034647AC95D0C /* Pods-UBSetRoute_Example */ = {
+			isa = PBXGroup;
+			children = (
+				968063B6D2E06F0516499955AF9AE923 /* Pods-UBSetRoute_Example.modulemap */,
+				6E259E67BDA7B67360589D22C3B146D1 /* Pods-UBSetRoute_Example-acknowledgements.markdown */,
+				C201331D3240B90AC0980C139BDB0236 /* Pods-UBSetRoute_Example-acknowledgements.plist */,
+				01F707CA4E400E53B771FB5A3ACF11BD /* Pods-UBSetRoute_Example-dummy.m */,
+				0274AC44A6689817FB6D3561F24E519E /* Pods-UBSetRoute_Example-Info.plist */,
+				C45BE30A6421EC3C811745194D2110E0 /* Pods-UBSetRoute_Example-resources.sh */,
+				E8C07D2175A5B33E27A248F5072FC358 /* Pods-UBSetRoute_Example-umbrella.h */,
+				F4437C8F02043897231DBA9847B2B147 /* Pods-UBSetRoute_Example.debug.xcconfig */,
+				F3F1C6B83F17754C2A6E0E3C2B7D2384 /* Pods-UBSetRoute_Example.release.xcconfig */,
+			);
+			name = "Pods-UBSetRoute_Example";
+			path = "Target Support Files/Pods-UBSetRoute_Example";
+			sourceTree = "<group>";
+		};
+		98817497B073FE11E090DF9C2B98EB00 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				64D4F402F0D2A01DE7AA31F71C517672 /* SetRouteViewColors.swift */,
+				A9E62850823FDA476F6FD94CA462BF83 /* SetRouteViewFonts.swift */,
+				FB650679A45A7A6CA231B07FF625AE5C /* SetRouteViewImages.swift */,
+				6901C20D34C23C5DF68AF6014C50E6C8 /* SetRouteViewSettings.swift */,
+			);
+			name = Configuration;
+			path = UBSetRoute/Classes/Configuration;
+			sourceTree = "<group>";
+		};
+		9E9A983608C59ACFEE0B6FDD9175D978 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8875A666697E38FF866E90019AB33 /* LICENSE */,
+				406C08F347766097734B1213E3E67246 /* README.md */,
+				729988F74CF652696B762131E66EF468 /* UBSetRoute.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A7735D7D24CD274DDCFBBDF15FC2F171 /* DestinyView */ = {
+			isa = PBXGroup;
+			children = (
+				5121BE2EC7AEB8090D0A96DCA14D3FDA /* DestinyView.swift */,
+			);
+			path = DestinyView;
+			sourceTree = "<group>";
+		};
+		AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6DC984D737DB841E41A9D175E8069AED /* Base */,
+				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
+				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		AFC38B353DE299C50CACAE6DFAD12E37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C966C7445654AFDE6A3BA4CA8EE625FA /* UBSetRoute */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B5AE4F269F265A1459E3684F17837330 /* Pods-UBSetRoute_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC58E7C391AF2CACF6C1393087DF7C35 /* Pods-UBSetRoute_Tests.modulemap */,
+				2230621F84546A826CC4FD70B7F5F088 /* Pods-UBSetRoute_Tests-acknowledgements.markdown */,
+				C913B049526758539CCA4DA06D4D2944 /* Pods-UBSetRoute_Tests-acknowledgements.plist */,
+				8934EC8088C4392B7FC17E5DECA2255B /* Pods-UBSetRoute_Tests-dummy.m */,
+				24A2463F3221B768082F78A10DE8C399 /* Pods-UBSetRoute_Tests-Info.plist */,
+				9B1A39AA8FFB9DC43E21926F9FD7B916 /* Pods-UBSetRoute_Tests-umbrella.h */,
+				BEF1D61B62A456C163E51E169218591E /* Pods-UBSetRoute_Tests.debug.xcconfig */,
+				5916639FC88CCC2D942F6C4628FA3F76 /* Pods-UBSetRoute_Tests.release.xcconfig */,
+			);
+			name = "Pods-UBSetRoute_Tests";
+			path = "Target Support Files/Pods-UBSetRoute_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C966C7445654AFDE6A3BA4CA8EE625FA /* UBSetRoute */ = {
+			isa = PBXGroup;
+			children = (
+				FC9D38D023E1FC93005636F9 /* ViewController */,
+				98817497B073FE11E090DF9C2B98EB00 /* Configuration */,
+				F0D2E48C8496F0393CE2ED061B224423 /* Model */,
+				9E9A983608C59ACFEE0B6FDD9175D978 /* Pod */,
+				6E5230FD9F9A86D0F232882FAC550F4D /* Resources */,
+				633FCCD7A109F05C0368000854304936 /* Support Files */,
+				32BBE7068A877FB7EC931EEDF4AEC570 /* View */,
+				49D2F033DB537FD9D8177A83FBBABA58 /* ViewModel */,
+			);
+			name = UBSetRoute;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB4FFE30125DB944A69FABB13465CBF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AFC38B353DE299C50CACAE6DFAD12E37 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				8084EBB1CFB57E0604254C1881C084F2 /* Products */,
+				565BFF87D585B5373330462BB235EDB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFED3F336CF103AD11FE0843A3204094 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				03168825D08A34D95A438E1C98AC3A73 /* PlacesCell.swift */,
+				BF3CB12D09942FF3A20943851E567D96 /* EditingRouteView.swift */,
+				55C842AE4C08095878F0C10875E8AD07 /* ButtonsTableViewCell.swift */,
+				DF06FF8C5BD39A85E5C2940A96F37F2B /* HeaderView.swift */,
+				789D2899C6753CD57B5D046E34CEAA7E /* NewStopCell.swift */,
+				70B14F7FD5C148EA1330C6E832033C7F /* PlacesTableView.swift */,
+				113642C01054237C5EB9F853FA9BDD49 /* StopCell.swift */,
+				70F582C094C408EED899211235F322D3 /* StopView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0D2E48C8496F0393CE2ED061B224423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF9E0C45AEA7B0575ACD389013E12B67 /* Points.swift */,
+			);
+			name = Model;
+			path = UBSetRoute/Classes/Model;
+			sourceTree = "<group>";
+		};
+		FC9212BD23E1FFB400BD7A0E /* EditStop */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E221259263C5CAA2746224520E234 /* EditStopViewController.swift */,
+				FC9212BE23E1FFBA00BD7A0E /* View */,
+			);
+			path = EditStop;
+			sourceTree = "<group>";
+		};
+		FC9212BE23E1FFBA00BD7A0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12A29A329B93F2C9C2A562B08BDDC715 /* EditStopTableView.swift */,
+				4D478FB693E71B2053C45EB90DCBD9A1 /* EditStopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC9D38D023E1FC93005636F9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC9212BD23E1FFB400BD7A0E /* EditStop */,
+				FC9D38D123E1FC98005636F9 /* MultipleStops */,
+			);
+			name = ViewController;
+			path = UBSetRoute/Classes/ViewController;
+			sourceTree = "<group>";
+		};
+		FC9D38D123E1FC98005636F9 /* MultipleStops */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6EE66B7415EC2CFF5347CFD4F0133 /* MultiplesStopsViewController.swift */,
+				FC9D38D223E1FCA2005636F9 /* View */,
+			);
+			path = MultipleStops;
+			sourceTree = "<group>";
+		};
+		FC9D38D223E1FCA2005636F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01B2B15981DC43B031F39F406A3C5A90 /* MultiplesStopsTableVIew.swift */,
+				2301F1A4035C880B672DD726A34E203D /* NewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187B7320CC754AF37EA8463DE0EE3EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F6472AFB13E9CEB8029AB087911A99 /* Pods-UBSetRoute_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541284A03C614FE4D819162A0FDBDAA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653B103716DE061EC0109175BD8353CB /* Pods-UBSetRoute_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E05DCDF9FAB51BAD16C6F012972A703 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E0F2B007949CB4D1636F40CA1B4A73 /* UBSetRoute-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A114E5AE2DEECABD77DBA0D23444C0A /* Pods-UBSetRoute_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9A097BC5CF99B5E6EB35CD7AE7A1EA /* Build configuration list for PBXNativeTarget "Pods-UBSetRoute_Example" */;
+			buildPhases = (
+				187B7320CC754AF37EA8463DE0EE3EED /* Headers */,
+				A77C5A6265D6785891FF352062181C3F /* Sources */,
+				178BA9D292C15645D173387C409996C9 /* Frameworks */,
+				8273D59BB04DDCEBC41AB3B180D72240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B39077F04F6F342C04313F81B847474 /* PBXTargetDependency */,
+				C7C87C2A28CE4335372FE95BF05BF248 /* PBXTargetDependency */,
+			);
+			name = "Pods-UBSetRoute_Example";
+			productName = "Pods-UBSetRoute_Example";
+			productReference = 430E7A7CB0CC4A76DE10238A75F12BE2 /* Pods_UBSetRoute_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48F42BCFC85DB41FE3B87384C02BD674 /* UBSetRoute-UBSetRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A903C99883487C41882E32B00BE928E3 /* Build configuration list for PBXNativeTarget "UBSetRoute-UBSetRoute" */;
+			buildPhases = (
+				3DC9F88E0268FB36BDAB3133C76A15C7 /* Sources */,
+				E26212EDEFDB487F6A46E51E03DE4D11 /* Frameworks */,
+				90C199E3EC1B913E15EFE7A707B11A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UBSetRoute-UBSetRoute";
+			productName = "UBSetRoute-UBSetRoute";
+			productReference = E963919DB615626B027AA3F67FD9E1EB /* UBSetRoute.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F798C8417EC1ADDC7B7B586D66E0497 /* UBSetRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33B826DD514478389C2BDB3C72EEE28 /* Build configuration list for PBXNativeTarget "UBSetRoute" */;
+			buildPhases = (
+				6E05DCDF9FAB51BAD16C6F012972A703 /* Headers */,
+				9C3EF718174BFD3F22C932EF83E91DAD /* Sources */,
+				A513BEFD3F5C16A3BE4A13154CC306F7 /* Frameworks */,
+				61F5198CBFA662A06A18B9D145951331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A19F857F171A4C224ED5D88721113957 /* PBXTargetDependency */,
+				8C3464A17F1D552E320F9AA456BAF679 /* PBXTargetDependency */,
+			);
+			name = UBSetRoute;
+			productName = UBSetRoute;
+			productReference = 609DF6FFAC134AF8B8C630118ACB66FF /* UBSetRoute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C87D683892B1A3F5B70AE6840F2FBCC7 /* Pods-UBSetRoute_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6FF23F110EDBF14DC7B54B1EE7954C /* Build configuration list for PBXNativeTarget "Pods-UBSetRoute_Tests" */;
+			buildPhases = (
+				541284A03C614FE4D819162A0FDBDAA6 /* Headers */,
+				2564D4D6A2600DD2876A59C7CCDED580 /* Sources */,
+				EDB78A7DB82758663244A14EF3C0E182 /* Frameworks */,
+				29A71938214A5D9A5D8EEAA392BE24B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10D5C89E745CBBA2FDD956D86769A4F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-UBSetRoute_Tests";
+			productName = "Pods-UBSetRoute_Tests";
+			productReference = D12EEABEB651BDA68F39657496D1E41D /* Pods_UBSetRoute_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8084EBB1CFB57E0604254C1881C084F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				3A114E5AE2DEECABD77DBA0D23444C0A /* Pods-UBSetRoute_Example */,
+				C87D683892B1A3F5B70AE6840F2FBCC7 /* Pods-UBSetRoute_Tests */,
+				9F798C8417EC1ADDC7B7B586D66E0497 /* UBSetRoute */,
+				48F42BCFC85DB41FE3B87384C02BD674 /* UBSetRoute-UBSetRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29A71938214A5D9A5D8EEAA392BE24B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F5198CBFA662A06A18B9D145951331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8273D59BB04DDCEBC41AB3B180D72240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C199E3EC1B913E15EFE7A707B11A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5282C3727A3DA51347704AA9E4612CCA /* add.png in Resources */,
+				009C8F1336AF624FFA86C976A20333C9 /* arrow-left.png in Resources */,
+				6CA99CE668A5ABBE44D4B9D988A6E7E8 /* circle-visited.png in Resources */,
+				7716A4BE51C7233D36513732746E226C /* circle.png in Resources */,
+				53A407AA0B8E0C9A21A9F783400A13E8 /* delete.png in Resources */,
+				338521E9748F8CDCEBE7D5585009D395 /* dots.png in Resources */,
+				2C825B4D820884C02162AE79A8FC5EEC /* drag.png in Resources */,
+				3AAC7C86356B80F201F97FA27ED308D6 /* icon-map.png in Resources */,
+				C7048E5A18655FA36C7F29AF3722345B /* information-stops.png in Resources */,
+				EEC0B4F76A763125B49E3F3408E3C0EC /* map-pin.png in Resources */,
+				42C2B394BEE86BFBBCCA96B7D1BDDCF0 /* pin-userlocation@3x.png in Resources */,
+				2D9F88AD4C470B02ACFD6985A9CFB1E8 /* pin.png in Resources */,
+				47F9E641F28E151492EEEACD4ACC5AAB /* swap.png in Resources */,
+				67D1650E8C74DBDDAD944C26E9E7D25C /* target.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2564D4D6A2600DD2876A59C7CCDED580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF74EF741E7D14E00A2B4D7334B9F16 /* Pods-UBSetRoute_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC9F88E0268FB36BDAB3133C76A15C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3EF718174BFD3F22C932EF83E91DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C012F81C2A58E7F7EA514F6419799C12 /* ButtonsTableViewCell.swift in Sources */,
+				06821A06066591E2BE125D64DDDC9870 /* CustomButton.swift in Sources */,
+				E4B75547596982DF9DDF3E3B5D22A906 /* DestinyView.swift in Sources */,
+				FEA2EEC2C74791EB6A5448467DA36D6A /* EditingRouteView.swift in Sources */,
+				B5282BACAAE78741B34F5FA350696837 /* EditStopTableView.swift in Sources */,
+				BC337212113D280C966B3BAF6E12C7FE /* EditStopView.swift in Sources */,
+				08D2994D6742AA5C6EE1FCB1ECC488CA /* EditStopViewController.swift in Sources */,
+				7F3AA4A0BB6BBF5D788021F97DF7B42E /* Extensions.swift in Sources */,
+				DD0F988221480E6C3572E702C576383E /* HeaderView.swift in Sources */,
+				DA344BAE4E0F10B3C2017B3B202877BF /* LocationButton.swift in Sources */,
+				F0B3EB74036C81D2804B8E025137DDC0 /* MapView+LocationManager.swift in Sources */,
+				2972B30D679C342067F991C488BED13E /* MapView.swift in Sources */,
+				7D62DC301C22963D8C43706E978DAE54 /* MultiplesStopsTableVIew.swift in Sources */,
+				BDDE9D79ECD839AF990B360EE43BB097 /* MultiplesStopsViewController.swift in Sources */,
+				DDD9D8F787426F9CCD5976F21154F263 /* NewStopCell.swift in Sources */,
+				0F95437410D14043310A3E713645247A /* NewView.swift in Sources */,
+				D2DD2504F98DDB64056EAC93C8810846 /* PlacesCell.swift in Sources */,
+				044DA6EF1E4DF8B6AA06D98CB9813353 /* PlacesTableView.swift in Sources */,
+				417AC01FE234622917DB9EE5B8BE5441 /* PlaceViewModel.swift in Sources */,
+				41E6799590BF1BC7DD4E80CC46125B79 /* Points.swift in Sources */,
+				55AE2F1FB6F99FD00094CC55462019BA /* RMGradientView.swift in Sources */,
+				E5B6EA0DF6A1974B4A303DDA13969561 /* RouteTextField.swift in Sources */,
+				692EBCA75C4744699FEE9FE074772E5A /* RouteView.swift in Sources */,
+				86161BE6A5D48D3D0C28912D996A647E /* RouteViewModel.swift in Sources */,
+				CD974AB7778A4AB63E81D7F2925181DE /* SetRouteViewColors.swift in Sources */,
+				EB91A2D609C0A9A62ABA55C04F0B630E /* SetRouteViewFonts.swift in Sources */,
+				004691F1E9B048DABECDC0C5B358ABF8 /* SetRouteViewImages.swift in Sources */,
+				A2359FA1385789AC9EF48C8F1F488C8E /* SetRouteViewSettings.swift in Sources */,
+				4D18C9DF8B4B2CFF8380DB399CA62B58 /* StopCell.swift in Sources */,
+				C97E87450A816E0F6FF63B350109F145 /* StopsInformationView.swift in Sources */,
+				8A77175C3C568CC21602670B626F1BB8 /* StopView.swift in Sources */,
+				E7F7D0CEA10F45C55F10251A8CDA3E3B /* Strings.swift in Sources */,
+				5B5FF9441FF0B5CDC805300087B2908C /* UBSetRoute-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77C5A6265D6785891FF352062181C3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACF1DC2480FE4109DF5C9F2FCB0CA2F /* Pods-UBSetRoute_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B39077F04F6F342C04313F81B847474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 86885217D68F2B59B743E8B8CD8BB9A5 /* PBXContainerItemProxy */;
+		};
+		10D5C89E745CBBA2FDD956D86769A4F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UBSetRoute_Example";
+			target = 3A114E5AE2DEECABD77DBA0D23444C0A /* Pods-UBSetRoute_Example */;
+			targetProxy = 3CA4AE3D403C29404306A6596D9332E9 /* PBXContainerItemProxy */;
+		};
+		8C3464A17F1D552E320F9AA456BAF679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UBSetRoute-UBSetRoute";
+			target = 48F42BCFC85DB41FE3B87384C02BD674 /* UBSetRoute-UBSetRoute */;
+			targetProxy = 6AAE1C90142320A669517B5F431DBEEF /* PBXContainerItemProxy */;
+		};
+		A19F857F171A4C224ED5D88721113957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 496C32E58737EB11E062C3CA0B08CBC3 /* PBXContainerItemProxy */;
+		};
+		C7C87C2A28CE4335372FE95BF05BF248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UBSetRoute;
+			target = 9F798C8417EC1ADDC7B7B586D66E0497 /* UBSetRoute */;
+			targetProxy = 40BFD69B30BF05DBE28EBC851BFC56D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		250555F1A2A545DA91DF489D5BA2A5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBSetRoute";
+				IBSC_MODULE = UBSetRoute;
+				INFOPLIST_FILE = "Target Support Files/UBSetRoute/ResourceBundle-UBSetRoute-UBSetRoute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UBSetRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2AD9DDE67EAC79B18FEBACB00B926484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBSetRoute/UBSetRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBSetRoute/UBSetRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBSetRoute/UBSetRoute.modulemap";
+				PRODUCT_MODULE_NAME = UBSetRoute;
+				PRODUCT_NAME = UBSetRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3604FCEB31EFB84AD15D6812FC9BAC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBSetRoute";
+				IBSC_MODULE = UBSetRoute;
+				INFOPLIST_FILE = "Target Support Files/UBSetRoute/ResourceBundle-UBSetRoute-UBSetRoute-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = UBSetRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		387F48938A76E50F2CC38D3606708601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4437C8F02043897231DBA9847B2B147 /* Pods-UBSetRoute_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBSetRoute_Example/Pods-UBSetRoute_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBSetRoute_Example/Pods-UBSetRoute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB1F20199EA74D354D2789478BA7BCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF1D61B62A456C163E51E169218591E /* Pods-UBSetRoute_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBSetRoute_Tests/Pods-UBSetRoute_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBSetRoute_Tests/Pods-UBSetRoute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE83D9FD50DF734D5CC3977A51920E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F1C6B83F17754C2A6E0E3C2B7D2384 /* Pods-UBSetRoute_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBSetRoute_Example/Pods-UBSetRoute_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBSetRoute_Example/Pods-UBSetRoute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F86AF3C978BF7760CBACF4E51BB0506E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5916639FC88CCC2D942F6C4628FA3F76 /* Pods-UBSetRoute_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBSetRoute_Tests/Pods-UBSetRoute_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBSetRoute_Tests/Pods-UBSetRoute_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F87029698F550049317D8E41EC8F8B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0641269A56FAF32EAA9D182596AAD471 /* UBSetRoute.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBSetRoute/UBSetRoute-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBSetRoute/UBSetRoute-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBSetRoute/UBSetRoute.modulemap";
+				PRODUCT_MODULE_NAME = UBSetRoute;
+				PRODUCT_NAME = UBSetRoute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9A097BC5CF99B5E6EB35CD7AE7A1EA /* Build configuration list for PBXNativeTarget "Pods-UBSetRoute_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387F48938A76E50F2CC38D3606708601 /* Debug */,
+				CAE83D9FD50DF734D5CC3977A51920E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A903C99883487C41882E32B00BE928E3 /* Build configuration list for PBXNativeTarget "UBSetRoute-UBSetRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250555F1A2A545DA91DF489D5BA2A5DD /* Debug */,
+				3604FCEB31EFB84AD15D6812FC9BAC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33B826DD514478389C2BDB3C72EEE28 /* Build configuration list for PBXNativeTarget "UBSetRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87029698F550049317D8E41EC8F8B64 /* Debug */,
+				2AD9DDE67EAC79B18FEBACB00B926484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6FF23F110EDBF14DC7B54B1EE7954C /* Build configuration list for PBXNativeTarget "Pods-UBSetRoute_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1F20199EA74D354D2789478BA7BCDB /* Debug */,
+				F86AF3C978BF7760CBACF4E51BB0506E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
